@@ -90,4 +90,7 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Setting file
+drchrono/settings.py
+
 db.sqlite3
