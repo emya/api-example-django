@@ -1,0 +1,9 @@
+#!/Users/ayadaemi/djcode/drchrono/api-example-django/drchrono/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'rsa==3.4.2','console_scripts','pyrsa-encrypt-bigfile'
+__requires__ = 'rsa==3.4.2'
+import sys
+from pkg_resources import load_entry_point
+
+sys.exit(
+   load_entry_point('rsa==3.4.2', 'console_scripts', 'pyrsa-encrypt-bigfile')()
+)

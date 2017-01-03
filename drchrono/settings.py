@@ -109,3 +109,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+    
+# Settings for OAuth
+    
+SOCIAL_AUTH_DRCHRONO_KEY = 'kZQb3JyxWxvkk7H8GtwNJjrScqaPNvPheHS5o2BR'
+SOCIAL_AUTH_DRCHRONO_SECRET = 'PWrqvMh7dHWVzv17bZGqgaERV9AIEbOcWQvNlRJ3qXr4E9TtUWpPxRn5kot8DLRWaPkWLMZ66fxvROorX0MjWH78JWoy9inwO4bx8Ll7wiAgxkjM97d61jTdMCA5V5EF'
+SOCIAL_AUTH_DRCHRONO_SCOPE = 'patients:summary:read'
+LOGIN_REDIRECT_URL = 'http://ec2-35-164-239-196.us-west-2.compute.amazonaws.com'
